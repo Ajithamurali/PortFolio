@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Projects</title>
+	<style>
+	
+	.flip-box {
+  background-color: transparent;
+  width: 350px;
+  height: 350px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-box-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-box-back {
+  background-color: #8585ad;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+</style>
+</head>
+<body>
+	<center>
+		<h3 style="font-family: cursive;">PROJECT-1 :Document Maker</h3>
+	<div class="flip-box"><div class="flip-box-inner"> <div class="flip-box-front"><img src="https://tse3.mm.bing.net/th?id=OIP.3CVpD2E4KsDnWHc_X_8gMwAAAA&pid=Api&P=0&w=300&h=300"  width ="350px" height="350px"/></div>
+	<div class="flip-box-back"><h3><b>Document Maker</b></h3><br><b>Title :</b>       Android App for Document Maker</br> <br><b>Duration:</b>  Jan2020-Current </br><br><b>Domain:</b>  Android Studio</br> <br><b>Description :</b>  Android app (CamCorder) that allows users to scan, store and forward the documents in a pdf format. In addition to that, learning module for vocabulary is also included. </br></div></div></div>
+ 
+ <h3 style="font-family: cursive;">PROJECT-2 : Webmail-Automation using UIPath</h3>
+	<div class="flip-box"><div class="flip-box-inner"> <div class="flip-box-front"><img src="https://mms.businesswire.com/media/20180625005502/en/664589/4/3413079_UiPath_Logo.jpg?download=1"   width ="350px" height="350px"/> </div><div class="flip-box-back">
+<h3><b>  Webmail-Automation using UIPath </b></h3><br><b>Title :</b>             Webmail-Automation using UIPath</br><br><b>  Duration :</b>        Oct 2019-Nov 2019 </br><br><b>Domain :</b>     Robotic Process Automation </br><br><b>Description :</b>    Bot for automatic reply to customer request (for merchandise) by surfing(product details) and sending the report through mail.<br> </div></div></div>
+ 
+ 
+ <h3 style="font-family: cursive;">PROJECT-3 :SEO Analysis</h3>
+	<div class="flip-box"><div class="flip-box-inner"> <div class="flip-box-front"><img src="https://tse4.mm.bing.net/th?id=OIP.tQdNYesceLx-c6hl_4XNTQHaFj&pid=Api&P=0&w=209&h=157"  width ="350px" height="350px"/></div><div class="flip-box-back">
+<h3>SEO Analysis</h3><br><b> Title :</b>                SEO Analysis of Jodhpur Bikes website</br>  
+<br><b>Duration :</b>          Aug 2019 </br>
+      <br><b>      Domain :</b>           Digital Marketing</br> 
+<br><b>Description :</b>       Based on the Analysis provided Website Report on Keyword Ideas, On-site Analysis , SEO Health and Suggestions. using SEO tools  Neilpatel ,Validator ,Pagespeed </br></div></div></div></center>
+ 
+
+</body>
+</html>

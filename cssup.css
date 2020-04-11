@@ -1,0 +1,50 @@
+.{
+	margin:0px;
+	padding:0px;
+	font-family:sans-serif;
+}
+.bg{
+ background:url("C:/Users/Ajitha.M/Desktop/Screenshot_20200309-151647.png");
+ position: absolute;
+ 
+
+}
+#sidebar
+{
+	position: fixed;
+	width:16%;
+	height:100%;
+	background-color: black;
+	left:0px;
+	transition: all 500ms linear;
+	
+}
+/*#sidebar:hover
+{
+	left:0px;
+	
+}*/
+a:link{
+	text-decoration: none;
+	color:white;
+}
+#sidebar ul li
+{
+	color:white;
+	list-style:none;
+	padding:15px 0px;
+	border-bottom: 1px solid rgba(100,100,100,0.3);
+}
+/*#sidebar .toggle-btn
+{
+	position: absolute;
+	left: 260px;
+	top:20px;
+}
+#sidebar .toggle-btn span{
+	display: block;
+	width: 30px;
+	height: 5px;
+	background: black;
+	margin:5px 0px;
+}*/
