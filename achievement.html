@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<title>Achievement</title>
+
+<style>
+body{
+  color:white;
+  background-image: url("https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif"); 
+}.border{
+  margin-left: 30%;
+  height:300px;
+  width: 500px;
+  text-shadow: 2px 2px 8px #FF0000;
+  border:1px dashed white;
+
+}
+.mySlides {display:none;}
+.p1
+{
+  position: absolute;
+  top: 90%;
+  left: 30%;
+  transform: translate(-50%,-50%);
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 15px #03a9f4;
+  background: #fff;
+  box-sizing: border-box;
+  text-align: center;
+  transition: .5s;
+}
+.p1:hover
+{
+  border-radius: 0;
+}
+.p1:before
+{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #03a9f4;
+  z-index: -1;
+  transform: rotate(-45deg);
+  border-radius: 10px;
+}
+.p1 p
+{
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-size: 16px;
+  padding: 20px;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: .5s;
+}
+.p1:hover p
+{
+  box-shadow: 0 0 50px rgba(0,0,0,.5);
+}
+#p2
+{
+  left:70%;
+}
+#p3
+{
+  top:150%;
+  left:50%;
+}
+</style>
+<body>
+  <div class="border">
+
+<center><h1 class="w3-center">Honor</h1>
+
+<div class="w3-content" style="max-width:500px">
+  <div class="mySlides">
+    <center><img src="https://keepmovingweekly.files.wordpress.com/2016/10/achievement-star-transparent.png" width=150px height=150px/></center>
+    <h3 style="font-family: cursive;"><center>Finalist in THE BIG IDEA Contest -2018</center> </h3>
+   
+  </div>
+   <div class="mySlides">
+    <center><img src="http://dslsa.org/ed/wp-content/uploads/2015/08/achievement.png" width=150px height=150px/></center>
+    <h3 style="font-family: cursive;"><center><b>Achieved In Smart India Hackathon-2019  </b></center></h3>
+   
+  </div>
+   <div class="mySlides">
+    <center><img src="https://keepmovingweekly.files.wordpress.com/2016/10/achievement-star-transparent.png" width=150px height=150px/></center>
+    <h3 style="font-family: cursive;"><b><center>Student of the year Award-2013</center>  </b></h3>
+   
+  </div>
+   <div class="mySlides">
+    <center><img src="http://dslsa.org/ed/wp-content/uploads/2015/08/achievement.png" width=150px height=150px/></center>
+    <h3 style="font-family: cursive;"><b> <center>Merit Certificate For Subject Topper</center>  </b></h3>
+   
+  </div>
+   <div class="mySlides">
+    <center><img src="https://keepmovingweekly.files.wordpress.com/2016/10/achievement-star-transparent.png" width=150px height=150px/></center>
+    <h3 style="font-family: cursive;"><b> <center>Merit Certificate For Department Topper</center>  </b></h3>
+   
+  </div>
+  
+
+  
+
+  <!--<img class="mySlides" src="img_manarola.jpg" style="width:100%">-->
+</div>
+</center></div><br>
+<br>
+<center><h1 style="text-shadow: 2px 2px 8px #FF0000;">Position Of Responsibilites</h1></center>
+<div class="p1"><p>Role : Android App Development Intern Trainee<br>Institution :Prays Lab<br>Duration :18<sup>th</sup> March,2020 to 8<sup>th</sup> April,2020<br>Description :To Design Challenging tasks and to complete daily modules that are provided<br>Stipend :Rs.5000/-</p></div>
+<div class="p1" id="p2"><p>Role : Database Manager<br>Institution :Kings Agency Pharmaceutical Distributors<br>Duration :25<sup>th</sup> Dec,2019 to 15<sup>th</sup> Jan,2020<br>Description :Worked with Wondersoft Software<br>Stipend :Rs.4000/-</p></div>
+<div class="p1" id="p2"><p>Role : Database Manager<br>Institution :Kings Agency Pharmaceutical Distributors<br>Duration :25<sup>th</sup> Dec,2019 to 15<sup>th</sup> Jan,2020<br>Description :Worked with Wondersoft Software<br>Stipend :Rs.4000/-</p></div>
+<div class="p1" id="p3"><p>Role : Organiser<br>Organised Guess The Output Contest in St Joseph's College Of Engineering</p></div>
+
+<script>
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none"; 
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1} 
+  x[slideIndex-1].style.display = "block"; 
+  setTimeout(carousel, 2000); 
+}
+</script>
+
+</body>
+</html>
